@@ -1,6 +1,7 @@
 import { About } from '../../components/About/About';
 import { Advantages } from '../../components/Advantages/Advantages';
 import { Hero } from '../../components/Hero/Hero';
+import { Subscribe } from '../../components/Subscribe/Subscribe';
 import { Container } from '../Container/Container';
 
 export const Main = () => (
@@ -11,5 +12,6 @@ export const Main = () => (
     <Hero />
     <About />
     <Advantages />
+    <Subscribe />
   </main>
 );
