@@ -1,3 +1,4 @@
+import { About } from '../../components/About/About';
 import { Hero } from '../../components/Hero/Hero';
 import { Container } from '../Container/Container';
 
@@ -7,5 +8,6 @@ export const Main = () => (
       <h1 className="visually-hidden">Pet Planet - магазин товаров для животных</h1>
     </Container>
     <Hero />
+    <About />
   </main>
 );
