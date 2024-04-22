@@ -1,4 +1,5 @@
 import { About } from '../../components/About/About';
+import { Advantages } from '../../components/Advantages/Advantages';
 import { Hero } from '../../components/Hero/Hero';
 import { Container } from '../Container/Container';
 
@@ -9,5 +10,6 @@ export const Main = () => (
     </Container>
     <Hero />
     <About />
+    <Advantages />
   </main>
 );
